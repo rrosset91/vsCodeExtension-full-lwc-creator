@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [2.0.0]
 
 -   Big refactor and improvements
+
+## [2.1.0]
+
+-   Improvements and Linux support

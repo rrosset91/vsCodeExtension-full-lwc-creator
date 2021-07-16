@@ -2,7 +2,7 @@
 	"name": "full-lwc-creator",
 	"displayName": "Full LWC Creator",
 	"description": "Create full lwc including exposed and ready to go xml meta and css file",
-	"version": "1.5.0",
+	"version": "1.6.0",
 	"icon": "lwc.png",
 	"keywords": [
 		"Salesforce",

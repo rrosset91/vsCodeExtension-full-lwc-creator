@@ -91,7 +91,9 @@ function activate(context) {
 			userInputs.apiVersion = apiVersion;
 			await generateContent(params);
 		} else {
-			fs.readFile(`${workingFolder}/sfdx-project.json`, "utf8", async function (err, data) {
+			let filePath;
+			process.platform === "win32" ? filePath = workingFolder.substring(3) : filePath = workingFolder;
+			fs.readFile(`${filePath}/sfdx-project.json`, "utf8", async function (err, data) {
 				if (err) {
 					throw err;
 				} else {
